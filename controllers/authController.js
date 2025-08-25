@@ -33,6 +33,7 @@ export const registerUser = async (req, res) => {
       email,
       password: hashedPassword,
       profileImage,
+      isVerified: false,
       verificationCode,
     });
 
